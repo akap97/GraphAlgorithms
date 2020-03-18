@@ -18,7 +18,6 @@ public class NegativeCycle {
 					}
 				}
 			}
-			if(!changed) return 0;
 			if(changed && i==n-1) return 1;
 		}
 
